@@ -1,0 +1,30 @@
+.page-header{
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+}
+.nav{
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+        padding: 40px 0;
+    }
+
+    &__item{
+        margin-right: 40px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__link{
+        font-size: 16px;
+        line-height: 20 / 16 * 100%;
+        color: $white-color;
+    }
+}
