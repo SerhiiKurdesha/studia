@@ -15,36 +15,46 @@
     <header class="page-header">
         <div class="container">
             <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="" class="nav__link--current">Главная</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./project.html" class="nav__link">Наши проекты</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="" class="nav__link">Услуги</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="" class="nav__link">Новости</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="" class="nav__link">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
+                <button type="button" class="menu is-open" aria-expanded="true" aria-controls="nav__list" data-menu-button>
+                    <svg width="48" height="48" aria-label="Переключатель мобильного меню">
+                        <use class="icon-close" href="./svg/burger.svg#icon-close"></use>
+                        <use class="icon-open" href="./svg/burger.svg#icon-open"></use>
+                    </svg>
+                </button>
+                <div class="nav__list is-open" id="nav__list" data-menu>
+                   <ul>
+                        <li class="nav__item">
+                            <a href="" class="nav__link--current">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./project.html" class="nav__link">Наши проекты</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Услуги</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Новости</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Контакты</a>
+                        </li>
+                    </ul> 
+                </div>
+                
+            </nav> 
         </div>
     </header>
 
     <main> 
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="container">
                 <p class="hero__text">Передовая IT студия</p>
                 <h1 class="hero__title">Мы создаем легкие решения<br>
                 сложных задач и проблем</h1>
                 <a href="#" class="hero__link">Наши проекты</a>
             </div>
-        </section>
+        </section> -->
     </main>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
