@@ -15,6 +15,10 @@ ul {
   padding: 0;
 }
 
+img {
+  vertical-align: top;
+}
+
 a {
   text-decoration: none;
 }
@@ -37,6 +41,11 @@ h5 {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .page-header {
@@ -262,5 +271,41 @@ h5 {
 .features__button:hover, .features__button:focus {
   background: #3763bb;
   color: #E0E0E0;
+}
+
+.service {
+  padding: 30px 0;
+  background: #F6F6F8;
+}
+
+.service__title {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 143.75%;
+  color: #323232;
+  text-align: center;
+}
+
+.service__text {
+  font-size: 16px;
+  line-height: 156.25%;
+  color: #999999;
+  display: none;
+}
+
+.service__link {
+  font-size: 16px;
+  line-height: 125%;
+  text-decoration: underline;
+  color: #4985FF;
+}
+
+.service__img {
+  margin-bottom: 30px;
+  width: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 }
 /*# sourceMappingURL=main.css.map */
