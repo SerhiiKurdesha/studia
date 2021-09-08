@@ -1,0 +1,28 @@
+.works{
+    padding: 30px 0 150px 0;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.works__title{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23 / 16 * 100%;
+    color: $white-color;
+
+    text-align: center;
+}
+.works__link{
+    display: block;
+    width: 200px;
+    margin: auto;
+
+    padding: 13px 36px 15px 36px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20 / 16 * 100%;
+    text-align: center;
+    color: $white-color;
+    background: $accent-color;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(111, 111, 111, .25);
+}
