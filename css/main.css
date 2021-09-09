@@ -364,7 +364,7 @@ h5 {
 
 .works__link {
   display: block;
-  width: 200px;
+  max-width: 200px;
   margin: auto;
   padding: 13px 36px 15px 36px;
   font-weight: 500;
@@ -435,5 +435,60 @@ h5 {
   line-height: 125%;
   text-decoration: underline;
   color: #4985FF;
+}
+
+.project {
+  padding: 50px 0 50px 0;
+  background: #F6F6F8;
+}
+
+.project__title {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 143.75%;
+  text-align: center;
+  color: #000000;
+}
+
+.project__text {
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #999999;
+  display: none;
+}
+
+.project__list {
+  margin-bottom: 30px;
+}
+
+.project__item {
+  margin-bottom: 20px;
+}
+
+.project__item:last-child {
+  margin-bottom: 0;
+}
+
+.project__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project__link {
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid transparent;
+  background: #4985FF;
+  padding: 13px 36px 15px 36px;
+  -webkit-box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
 }
 /*# sourceMappingURL=main.css.map */
